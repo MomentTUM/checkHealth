@@ -81,14 +81,14 @@ export default function Abdomen() {
           </h1>
           <div className='relative w-[408px] h-[481px]'>
             <div className='w-32 h-40 absolute top-1/3 left-1/3'>
-              <ButtonSelection w={'w-11'} top={'top-3'} left={'left-10'} onClick={() => handleClickAbdomen('epigastrium')} />
-              <ButtonSelection w={'w-11'} top={'top-11'} left={'-left-1'} onClick={() => handleClickAbdomen('ruq')}/>
-              <ButtonSelection w={'w-11'} top={'top-11'} left={'left-[79px]'} onClick={() => handleClickAbdomen('luq')}/>
-              <ButtonSelection w={'w-11'} top={'top-[72px]'} left={'left-[38px]'} onClick={() => handleClickAbdomen('umbilicus')}/>
-              <ButtonSelection w={'w-11'} top={'top-24'} left={'-left-1'} onClick={() => handleClickAbdomen('rlq')}/>
-              <ButtonSelection w={'w-11'} top={'top-24'} left={'left-[79px]'} onClick={() => handleClickAbdomen('llq')}/>
-              <ButtonSelection w={'w-11'} top={'top-32'} left={'left-9'} onClick={() => handleClickAbdomen('suprapubic')}/>
-              <ButtonSelection w={'w-32'} top={'top-[260px]'} left={'-left-1'} onClick={() => handleClickAbdomen('all')}/>
+              <ButtonSelection w={'w-11'} h={'h-11'} top={'top-3'} left={'left-10'} onClick={() => handleClickAbdomen('epigastrium')} />
+              <ButtonSelection w={'w-11'} h={'h-11'} top={'top-11'} left={'-left-1'} onClick={() => handleClickAbdomen('ruq')}/>
+              <ButtonSelection w={'w-11'} h={'h-11'} top={'top-11'} left={'left-[79px]'} onClick={() => handleClickAbdomen('luq')}/>
+              <ButtonSelection w={'w-10'} h={'h-10'} top={'top-[73px]'} left={'left-[39px]'} onClick={() => handleClickAbdomen('umbilicus')}/>
+              <ButtonSelection w={'w-11'} h={'h-11'} top={'top-24'} left={'-left-1'} onClick={() => handleClickAbdomen('rlq')}/>
+              <ButtonSelection w={'w-11'} h={'h-11'} top={'top-24'} left={'left-[79px]'} onClick={() => handleClickAbdomen('llq')}/>
+              <ButtonSelection w={'w-11'} h={'h-11'} top={'top-32'} left={'left-9'} onClick={() => handleClickAbdomen('suprapubic')}/>
+              <ButtonSelection w={'w-32'} h={'h-11'} top={'top-[260px]'} left={'-left-1'} onClick={() => handleClickAbdomen('all')}/>
             </div>
             {isHighlighted ? (
               <div className='relative -z-10'>
